@@ -11,16 +11,16 @@ body {
 /* HEADER STYLES */
 
 header {
-    background: linear-gradient(#000242, white);
-    color: #07080c;
+    background: black;
+    color: #7FC9FF;
     padding: 20px 30px 20px 30px;
 }
 
 /* logo nest inside header */
 
 header #page-header {
-    font-family: 'Architects Daughter', cursive, Arial;
-    color: #07080c;
+    font-family: 'Rock Salt', cursive, Arial;
+    color: ##7FC9FF;
     text-decoration: none;
     width: 49%;
     display: inline-block;
@@ -44,6 +44,7 @@ header #main-navigation {
     width: 49%;
     display: inline-block;
     text-align: right;
+    font-family: 'Rock Salt', cursive, Arial
 }
 
 header #main-navigation ul {
@@ -70,7 +71,7 @@ header #main-navigation ul li a:hover {
 /* FOOTER*/
 
 footer   {
-  background: linear-gradient(white, #000242);
+  background: white;
   color: #777;
   padding: 40px;
   text-align: center;
@@ -80,4 +81,152 @@ footer img   {
   border-radius: 15px;
   width: 80px;
   margin: 0 auto 10px;
+}
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 550px;
+    text-align: center;
+    background: #555;
+    background-image: url('../image/hero-image.jpg');
+    background-size: cover;
+}
+
+.hero-content {
+    color: #c2edff;
+    padding-top: 130px;
+    line-height: 1;
+    font-family: 'Rock Salt', cursive, Arial;
+    text-shadow: 2px 2px 5px #FFFFFF;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 100px;
+}
+
+.hero-content p {
+    font-size: 50px; 
+    margin-bottom: 60px;
+}
+
+.hero-content a {
+    color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+    padding 15px 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 28px;   
+}
+/* SERVICE BOXES */
+
+.service-box-section {
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    width: 100%;
+    border-spacing: 15px 15px;
+  }
+
+.service-box {
+    display: inline-block;
+    width: 24%;
+    padding: 20px 30px;
+    line-height: 1;
+    border-style: solid;
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px grey;
+}
+
+.service-box img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 300px;
+    letter-spacing: 2px;
+}
+
+/* SITE SECTION STYLINGS */
+
+.site-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-header h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #777;
+}
+
+.site-section-secondary {
+    background: #EFEFEF;
+}
+
+.site-section-inside {
+    width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*About*/
+
+.about {
+    background: #ECF0F1;
+    width: 100%;
+    padding: 50px 0;
+}
+/* TESTIMONIALS */
+
+.testimonial-box {
+    display: inline-block;
+    width: 27%;
+    padding: 20px 30px;   
+}
+
+.testimonial-content {
+    background: #ECF0F1;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.testimonial-author img {
+    float: left; 
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.testimonial-author h5 {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+testimonial-author span {
+    color: #999;
+    font-size:14px;
 }
