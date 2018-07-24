@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* MAIN PAGE COMPONENT STYLING */
+
+
+/* HEADER STYLES */
+
+header {
+    background: black;
+    color: #7FC9FF;
+    padding: 20px 30px 20px 30px;
+}
+
+/* logo nest inside header */
+
+header #page-header {
+    font-family: 'Rock Salt', cursive, Arial;
+    color: ##7FC9FF;
+    text-decoration: none;
+    width: 49%;
+    display: inline-block;
+    text-shadow: 2px 2px 5px #aab5ff;
+}
+
+header img {
+    width: 90px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+header p {
+    font-size: 28px;
+}
+
+/* MAIN NAVIGATION */
+
+header #main-navigation {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+    font-family: 'Rock Salt', cursive, Arial;
+}
+
+header #main-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+header #main-navigation ul li {
+    display: inline-block; 
+}
+
+header #main-navigation ul li a {
+    color: #7FC9FF;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header #main-navigation ul li a:hover {
+    background: #444;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+} 
+
+/* HERO SECTION */
+
+.mlb-hero {
+    min-height: 550px;
+    text-align: center;
+    background: #555;
+    background-image: url('../image/mlb-baseball-nacho-helmets.jpg');
+    background-size: cover;
+}
+
+.mlb-hero-content {
+    color: #0918e5;
+    padding-top: 130px;
+    line-height: 1;
+    font-family: 'Rock Salt', cursive, Arial;
+    text-shadow: 2px 2px 5px #FFFFFF;
+}
+
+.mlb-hero-title {
+    margin: 0;
+    font-size: 100px;
+}
+
+.mlb-hero-content p {
+    font-size: 60px; 
+    margin-bottom: 60px;
+}
+
+.mlb-hero-content a {
+    color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+    padding 15px 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 28px;   
+}
+
+/* FOOTER*/
+
+footer   {
+  background: white;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+}
+footer img   {
+  display: block;
+  border-radius: 15px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+
+
+
+/* FOOTER*/
+
+footer   {
+  background: white;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+}
+footer img   {
+  display: block;
+  border-radius: 15px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+
+/*MOBILE RESPONSIVE*/
+
+@media screen and (max-width: 768px) {
+
+    /* HEADER   */
+    header #page-header {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    header #main-navigation {
+        width: 100%;
+        display: block; 
+        text-align: center;
+    }
+    
+/*  HERO  */
+    .mlb-hero {
+        min-height: 250px;
+    }
+    .mlb-hero-content {
+        padding-top: 80px;
+    }
+    .mlb-hero-title {
+        font-size: 30px;
+    }
+    .mlb-hero-content p {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .mlb-hero-content a {
+        font-size: 14px;
+        padding: 10px 15px;
+        border-width: 1px;
+        background: #FFF;
+        color: #333;
+    }
+}
