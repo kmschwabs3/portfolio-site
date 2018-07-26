@@ -16,7 +16,7 @@ header {
     padding: 20px 30px 20px 30px;
 }
 
-/* logo nest inside header */
+/* LOGO INSIDE HEADER */
 
 header #page-header {
     font-family: 'Rock Salt', cursive, Arial;
@@ -106,6 +106,25 @@ header #main-navigation ul li a:hover {
     font-size: 28px;   
 }
 
+/*RANKING SECTION*/
+
+.ranking-section {
+    text-align: center;
+}
+
+.ranking-section-box img{
+    float: left;
+    width: 300px;
+}
+.ranking-section-box h3 {
+    padding: 15px;
+   
+}
+.ranking-section-box h4 {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
 /* FOOTER*/
 
 footer   {
@@ -121,22 +140,6 @@ footer img   {
   margin: 0 auto 10px;
 }
 
-
-
-/* FOOTER*/
-
-footer   {
-  background: white;
-  color: #777;
-  padding: 40px;
-  text-align: center;
-}
-footer img   {
-  display: block;
-  border-radius: 15px;
-  width: 80px;
-  margin: 0 auto 10px;
-}
 
 /*MOBILE RESPONSIVE*/
 
