@@ -109,20 +109,25 @@ header #main-navigation ul li a:hover {
 /*RANKING SECTION*/
 
 .ranking-section {
-    text-align: center;
+    border-style: solid;
+    border-color: #000;
+    margin: 15px;
 }
 
 .ranking-section-box img{
     float: left;
-    width: 300px;
+    width: 275px;
+    margin: 10px;
+    box-shadow: 5px 5px grey;
 }
-.ranking-section-box h3 {
+
+.ranking-section-header{
     padding: 15px;
-   
-}
-.ranking-section-box h4 {
-    padding: 10px;
     text-transform: uppercase;
+    padding: 10px;
+}
+.ranking-section p{
+    padding: 10px;
 }
 
 /* FOOTER*/
