@@ -115,6 +115,7 @@ header #main-navigation ul li a:hover {
 .ranking-section-box img{
     float: left;
     width: 300px;
+    box-shadow: 7px 5px 24px 0px rgba(0,0,0,0.8); 
 }
 .ranking-section-box h3 {
     padding: 15px;
