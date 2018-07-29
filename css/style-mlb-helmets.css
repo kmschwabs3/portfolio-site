@@ -100,39 +100,88 @@ header #main-navigation ul li a:hover {
     color: white;
     border: 3px solid white;
     border-radius: 3px;
-    padding 15px 30px;
+    padding: 15px 30px;
     margin-right: 20px;
     text-decoration: none;
     font-size: 28px;   
 }
 
-/*RANKING SECTION*/
-
-.ranking-section {
-    border-style: solid;
-    border-color: #000;
-    margin: 15px;
+/*INTRO PARAGRAPH*/
+.mlb-intro-paragraph{
+    margin: 25px;
 }
 
-.ranking-section-box img{
-    float: left;
-<<<<<<< HEAD
-    width: 300px;
-    box-shadow: 7px 5px 24px 0px rgba(0,0,0,0.8); 
-=======
-    width: 275px;
-    margin: 10px;
-    box-shadow: 5px 5px grey;
->>>>>>> 46719e337ed81bdc49315a11d42dca128eba084a
+.mlb-intro-paragraph h2 {
+    text-align: center;
 }
 
-.ranking-section-header{
-    padding: 15px;
+/*RANKING TABLE SECTION*/
+
+.container > header {
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    background: #ecf0f1;
+}
+
+.container > header h2 {
+    font-weight: 600;
+    font-size: 3em;
+    margin: 0;
+    color: #0918e5;
+}
+
+.wrapper {
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 2em 0 3em;
+    width: 90%;
+    max-width: 2000px;
+    overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+}
+
+th {
+    background-color: #000000;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+td, th {
+    padding: 1em 1.5em;
+    text-align: center;
+}
+
+tbody th {
+    background-color: #2ea879;
+}
+tbody tr:nth-child(2n-1) {
+    background-color: #f5f5f5;
+    transition: all .125s ease-in-out;
+}
+tbody tr:hover {
+    background-color: rgba(160, 160, 160, .6313725490196078);
+}
+td.highlights{
+    text-align: left;
+}
+ 
+td.team{
     text-transform: uppercase;
-    padding: 10px;
 }
-.ranking-section p{
-    padding: 10px;
+
+td.picture img{;
+    width: 250px;
+    box-shadow: 6px 5px 22px 0px #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
 }
 
 /* FOOTER*/
@@ -146,7 +195,7 @@ footer   {
 footer img   {
   display: block;
   border-radius: 15px;
-  width: 80px;
+  width: 90px;
   margin: 0 auto 10px;
 }
 
